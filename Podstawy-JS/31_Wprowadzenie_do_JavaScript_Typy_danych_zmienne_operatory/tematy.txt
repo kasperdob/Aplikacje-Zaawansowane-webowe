@@ -1,0 +1,7 @@
+vsCode
+Debugger
+Pierwszy skrypt
+Komentarze
+Okna dialogowe
+Zmienne
+Operatory
