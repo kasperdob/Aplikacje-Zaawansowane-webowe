@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="text-kd">Instrukcje warunkowe i pętle</h1>
+    <main>
+        <div class="instrukcje-container">
+            <h2>Sprawdz plec</h2>
+            <label class="text-kd">
+                <input type="checkbox" id="input-plec" name="plec"> Czy jesteś mężczyzną?
+            </label>
+            <label class="text-kd">
+                <input type="checkbox" id="input-plec-2" name="plec"> Czy jesteś kobieta?
+            </label>
+            <button id="btn-plec" onclick="btnPlecClick()"> sprawdz </button>
+
+            <br/>
+            <label class="text-kd">
+                <input type="number" id="input-wiek"> Podaj swoj wiek:
+            </label>
+            <p id="lbl-wiek" class="text-kd"></p>
+            <p id="twoja-plec" class="text-kd"></p>
+        </div>
+        <div class="to-do-container">
+            <h2 class="text-kd">To Do list</h2>
+            <label class="text-kd">
+                Podaj zadanie
+                <input type="text" name="task" id="input-task">
+            </label>
+            <button onclick="btnTaskClick()">Dodaj zadanie</button>
+            <ul id="tasks-list"></ul>
+        </div>
+    </main>
+    <button onclick="petlaWhile()"></button>
+</body>
+</html>

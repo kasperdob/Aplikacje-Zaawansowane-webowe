@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(0, 0, 91);
+}
+main {
+    display: flex;
+    justify-content: space-around;
+}
+.text-kd {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
